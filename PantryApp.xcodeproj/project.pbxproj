@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		DF30A9C624CCBAFD002E5BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF30A9C424CCBAFD002E5BEB /* Main.storyboard */; };
 		DF30A9D224CCBAFD002E5BEB /* PantryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A9D124CCBAFD002E5BEB /* PantryAppTests.swift */; };
 		DF30A9DD24CCBAFD002E5BEB /* PantryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A9DC24CCBAFD002E5BEB /* PantryAppUITests.swift */; };
+		DF30A9EC24CCC450002E5BEB /* SwiftLintFramework in Frameworks */ = {isa = PBXBuildFile; productRef = DF30A9EB24CCC450002E5BEB /* SwiftLintFramework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF30A9EC24CCC450002E5BEB /* SwiftLintFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +153,9 @@
 			dependencies = (
 			);
 			name = PantryApp;
+			packageProductDependencies = (
+				DF30A9EB24CCC450002E5BEB /* SwiftLintFramework */,
+			);
 			productName = PantryApp;
 			productReference = DF30A9B824CCBAF9002E5BEB /* PantryApp.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +228,9 @@
 				Base,
 			);
 			mainGroup = DF30A9AF24CCBAF9002E5BEB;
+			packageReferences = (
+				DF30A9EA24CCC450002E5BEB /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
 			productRefGroup = DF30A9B924CCBAF9002E5BEB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -597,6 +605,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DF30A9EA24CCC450002E5BEB /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.39.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DF30A9EB24CCC450002E5BEB /* SwiftLintFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DF30A9EA24CCC450002E5BEB /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = SwiftLintFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DF30A9B024CCBAF9002E5BEB /* Project object */;
 }
