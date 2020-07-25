@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF30A9BC24CCBAF9002E5BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A9BB24CCBAF9002E5BEB /* AppDelegate.swift */; };
+		DF30A9BE24CCBAF9002E5BEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A9BD24CCBAF9002E5BEB /* ContentView.swift */; };
+		DF30A9C024CCBAFD002E5BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF30A9BF24CCBAFD002E5BEB /* Assets.xcassets */; };
+		DF30A9C324CCBAFD002E5BEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF30A9C224CCBAFD002E5BEB /* Preview Assets.xcassets */; };
+		DF30A9C624CCBAFD002E5BEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF30A9C424CCBAFD002E5BEB /* Main.storyboard */; };
+		DF30A9D224CCBAFD002E5BEB /* PantryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A9D124CCBAFD002E5BEB /* PantryAppTests.swift */; };
+		DF30A9DD24CCBAFD002E5BEB /* PantryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30A9DC24CCBAFD002E5BEB /* PantryAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF30A9CE24CCBAFD002E5BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF30A9B024CCBAF9002E5BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF30A9B724CCBAF9002E5BEB;
+			remoteInfo = PantryApp;
+		};
+		DF30A9D924CCBAFD002E5BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF30A9B024CCBAF9002E5BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF30A9B724CCBAF9002E5BEB;
+			remoteInfo = PantryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF30A9B824CCBAF9002E5BEB /* PantryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PantryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF30A9BB24CCBAF9002E5BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF30A9BD24CCBAF9002E5BEB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF30A9BF24CCBAFD002E5BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF30A9C224CCBAFD002E5BEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF30A9C524CCBAFD002E5BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF30A9C724CCBAFD002E5BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF30A9C824CCBAFD002E5BEB /* PantryApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PantryApp.entitlements; sourceTree = "<group>"; };
+		DF30A9CD24CCBAFD002E5BEB /* PantryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF30A9D124CCBAFD002E5BEB /* PantryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryAppTests.swift; sourceTree = "<group>"; };
+		DF30A9D324CCBAFD002E5BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF30A9D824CCBAFD002E5BEB /* PantryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PantryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF30A9DC24CCBAFD002E5BEB /* PantryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryAppUITests.swift; sourceTree = "<group>"; };
+		DF30A9DE24CCBAFD002E5BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF30A9B524CCBAF9002E5BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF30A9CA24CCBAFD002E5BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF30A9D524CCBAFD002E5BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF30A9AF24CCBAF9002E5BEB = {
+			isa = PBXGroup;
+			children = (
+				DF30A9BA24CCBAF9002E5BEB /* PantryApp */,
+				DF30A9D024CCBAFD002E5BEB /* PantryAppTests */,
+				DF30A9DB24CCBAFD002E5BEB /* PantryAppUITests */,
+				DF30A9B924CCBAF9002E5BEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF30A9B924CCBAF9002E5BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF30A9B824CCBAF9002E5BEB /* PantryApp.app */,
+				DF30A9CD24CCBAFD002E5BEB /* PantryAppTests.xctest */,
+				DF30A9D824CCBAFD002E5BEB /* PantryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF30A9BA24CCBAF9002E5BEB /* PantryApp */ = {
+			isa = PBXGroup;
+			children = (
+				DF30A9BB24CCBAF9002E5BEB /* AppDelegate.swift */,
+				DF30A9BD24CCBAF9002E5BEB /* ContentView.swift */,
+				DF30A9BF24CCBAFD002E5BEB /* Assets.xcassets */,
+				DF30A9C424CCBAFD002E5BEB /* Main.storyboard */,
+				DF30A9C724CCBAFD002E5BEB /* Info.plist */,
+				DF30A9C824CCBAFD002E5BEB /* PantryApp.entitlements */,
+				DF30A9C124CCBAFD002E5BEB /* Preview Content */,
+			);
+			path = PantryApp;
+			sourceTree = "<group>";
+		};
+		DF30A9C124CCBAFD002E5BEB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF30A9C224CCBAFD002E5BEB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF30A9D024CCBAFD002E5BEB /* PantryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF30A9D124CCBAFD002E5BEB /* PantryAppTests.swift */,
+				DF30A9D324CCBAFD002E5BEB /* Info.plist */,
+			);
+			path = PantryAppTests;
+			sourceTree = "<group>";
+		};
+		DF30A9DB24CCBAFD002E5BEB /* PantryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF30A9DC24CCBAFD002E5BEB /* PantryAppUITests.swift */,
+				DF30A9DE24CCBAFD002E5BEB /* Info.plist */,
+			);
+			path = PantryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF30A9B724CCBAF9002E5BEB /* PantryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF30A9E124CCBAFD002E5BEB /* Build configuration list for PBXNativeTarget "PantryApp" */;
+			buildPhases = (
+				DF30A9B424CCBAF9002E5BEB /* Sources */,
+				DF30A9B524CCBAF9002E5BEB /* Frameworks */,
+				DF30A9B624CCBAF9002E5BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PantryApp;
+			productName = PantryApp;
+			productReference = DF30A9B824CCBAF9002E5BEB /* PantryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF30A9CC24CCBAFD002E5BEB /* PantryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF30A9E424CCBAFD002E5BEB /* Build configuration list for PBXNativeTarget "PantryAppTests" */;
+			buildPhases = (
+				DF30A9C924CCBAFD002E5BEB /* Sources */,
+				DF30A9CA24CCBAFD002E5BEB /* Frameworks */,
+				DF30A9CB24CCBAFD002E5BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF30A9CF24CCBAFD002E5BEB /* PBXTargetDependency */,
+			);
+			name = PantryAppTests;
+			productName = PantryAppTests;
+			productReference = DF30A9CD24CCBAFD002E5BEB /* PantryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF30A9D724CCBAFD002E5BEB /* PantryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF30A9E724CCBAFD002E5BEB /* Build configuration list for PBXNativeTarget "PantryAppUITests" */;
+			buildPhases = (
+				DF30A9D424CCBAFD002E5BEB /* Sources */,
+				DF30A9D524CCBAFD002E5BEB /* Frameworks */,
+				DF30A9D624CCBAFD002E5BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF30A9DA24CCBAFD002E5BEB /* PBXTargetDependency */,
+			);
+			name = PantryAppUITests;
+			productName = PantryAppUITests;
+			productReference = DF30A9D824CCBAFD002E5BEB /* PantryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF30A9B024CCBAF9002E5BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Sarah Lichter";
+				TargetAttributes = {
+					DF30A9B724CCBAF9002E5BEB = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					DF30A9CC24CCBAFD002E5BEB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DF30A9B724CCBAF9002E5BEB;
+					};
+					DF30A9D724CCBAFD002E5BEB = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = DF30A9B724CCBAF9002E5BEB;
+					};
+				};
+			};
+			buildConfigurationList = DF30A9B324CCBAF9002E5BEB /* Build configuration list for PBXProject "PantryApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF30A9AF24CCBAF9002E5BEB;
+			productRefGroup = DF30A9B924CCBAF9002E5BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF30A9B724CCBAF9002E5BEB /* PantryApp */,
+				DF30A9CC24CCBAFD002E5BEB /* PantryAppTests */,
+				DF30A9D724CCBAFD002E5BEB /* PantryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF30A9B624CCBAF9002E5BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF30A9C624CCBAFD002E5BEB /* Main.storyboard in Resources */,
+				DF30A9C324CCBAFD002E5BEB /* Preview Assets.xcassets in Resources */,
+				DF30A9C024CCBAFD002E5BEB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF30A9CB24CCBAFD002E5BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF30A9D624CCBAFD002E5BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF30A9B424CCBAF9002E5BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF30A9BE24CCBAF9002E5BEB /* ContentView.swift in Sources */,
+				DF30A9BC24CCBAF9002E5BEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF30A9C924CCBAFD002E5BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF30A9D224CCBAFD002E5BEB /* PantryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF30A9D424CCBAFD002E5BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF30A9DD24CCBAFD002E5BEB /* PantryAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF30A9CF24CCBAFD002E5BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF30A9B724CCBAF9002E5BEB /* PantryApp */;
+			targetProxy = DF30A9CE24CCBAFD002E5BEB /* PBXContainerItemProxy */;
+		};
+		DF30A9DA24CCBAFD002E5BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF30A9B724CCBAF9002E5BEB /* PantryApp */;
+			targetProxy = DF30A9D924CCBAFD002E5BEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF30A9C424CCBAFD002E5BEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF30A9C524CCBAFD002E5BEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF30A9DF24CCBAFD002E5BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF30A9E024CCBAFD002E5BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DF30A9E224CCBAFD002E5BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PantryApp/PantryApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PantryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PantryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.PantryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF30A9E324CCBAFD002E5BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PantryApp/PantryApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"PantryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PantryApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.PantryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DF30A9E524CCBAFD002E5BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				INFOPLIST_FILE = PantryAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.PantryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PantryApp.app/Contents/MacOS/PantryApp";
+			};
+			name = Debug;
+		};
+		DF30A9E624CCBAFD002E5BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				INFOPLIST_FILE = PantryAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.PantryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PantryApp.app/Contents/MacOS/PantryApp";
+			};
+			name = Release;
+		};
+		DF30A9E824CCBAFD002E5BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				INFOPLIST_FILE = PantryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.PantryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PantryApp;
+			};
+			name = Debug;
+		};
+		DF30A9E924CCBAFD002E5BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 84C29N4H5C;
+				INFOPLIST_FILE = PantryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.slichter.PantryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = PantryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF30A9B324CCBAF9002E5BEB /* Build configuration list for PBXProject "PantryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF30A9DF24CCBAFD002E5BEB /* Debug */,
+				DF30A9E024CCBAFD002E5BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF30A9E124CCBAFD002E5BEB /* Build configuration list for PBXNativeTarget "PantryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF30A9E224CCBAFD002E5BEB /* Debug */,
+				DF30A9E324CCBAFD002E5BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF30A9E424CCBAFD002E5BEB /* Build configuration list for PBXNativeTarget "PantryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF30A9E524CCBAFD002E5BEB /* Debug */,
+				DF30A9E624CCBAFD002E5BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF30A9E724CCBAFD002E5BEB /* Build configuration list for PBXNativeTarget "PantryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF30A9E824CCBAFD002E5BEB /* Debug */,
+				DF30A9E924CCBAFD002E5BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF30A9B024CCBAF9002E5BEB /* Project object */;
+}
